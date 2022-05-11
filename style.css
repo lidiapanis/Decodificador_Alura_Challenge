@@ -1,0 +1,126 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F3F5FC;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+.logo{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.input-texto{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 130px;
+    color: #0A3871;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: 0px;
+}
+
+.mensagem{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 500px;
+    top: 130px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: 0px;
+    background-image: url("imagens/boneca.png");
+    background-repeat: no-repeat;
+
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: relative;
+
+}
+.encriptar{
+    background-color: darkblue;
+    color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #FFFF;
+}
+
+.desencriptar{
+    box-sizing: border-box;
+    background-color: #d8dfe8;
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+
+    font-size: 16px;
+    color: darkblue;
+
+}
+.copia{
+    box-sizing: border-box;
+    background-color: #d8dfe8;
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+
+    font-size: 16px;
+    color: darkblue;
+}
+
+.informacao{
+    font-size: 15px;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position:relative;
+    margin-top: 430px;
+    margin-left: 20px;
+
+}
+
+footer{
+    position: relative;
+    font-size: 15px;
+    margin-top: 550px;
+    width: 100%;
+    height: 10px;
+    padding: 12px 0 2px;
+    border-top: 2px solid darkblue;
+    text-align: center;
+}
